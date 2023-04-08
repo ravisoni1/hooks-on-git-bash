@@ -1,0 +1,62 @@
+
+		GIT CLASS
+
+
+VCS ---
+
+-> VCS (Version Control System) is a system that manages and records the changes to a file/code. 
+
+-> We can commit the changes of your code, and a version is created with the curent state of the code. 
+
+-> Multiple versions can be created to a file. 
+
+-> We can also go back to a specific version of that code later.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CVCS ---
+
+-> CVCS (Centralised Version Control System) consists a central server (Master Repository) that contains all of the versions of the code.
+
+-> In CVCS, firstly user needs to get the code from the master repository. So the user communicates with the server and pulls all the code or current version of the code from the server to their local machine.
+
+-> Once user gets the code from the server, he can starts making changes to the code and after that he needs to commit those changes straight forward to the master repository.
+
+-> Committing a change simply means merging your own code into the master repository or making a new version of the source code. So, everything is centralized in this system.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+DVCS ---
+
+-> DVCS (Distributed Version Control System) also consists a central server (Master Repository) that contains all the versions of the code. But the major diffrence is that, every user or client has thier own server and they will have a copy of the entire history or version of the code and all of its branches in their Local Machine.
+
+-> User can work locally and disconnected which is more convinieant that CVCS and that's why it is called Distributed.
+
+-> Users don't need to rely on the central server, they can clone the entire history or copy of the code to thier local machines. After working or making changes to that code, users can commit those changes to their local machines. 
+
+-> To communicate with the central server, users can issue a requests and push thier local machines's code to the master repository. 
+
+-> Getting the new change from a repository is called "Pulling" and merging your local repository's 'set of changes' is called "Pushing"
+
+------------------------------------------------------------------------------The End-----------------------------------------
+
+
+
+Git ---
+
+-> Git is an opensource Distributed Version Control System. It is a source code management tool which gives the following functionalities :-
+	- Allows Users to work simultaneously
+	- Does not allow overwriting each other's changes
+	- Maintaines a history of every version.
+
+-> Advantages of Git are as follows :-
+	- It is Free and Open Source
+	- It is Fast and small
+	- It can be used in the event of crash or Disk corruption
+	- It uses Secure Hash Function (SHA1) to identify objects within its database
+	- It not requires Powerfull Hardware
+	- It takes only a few seconds to create, delete, and merge branches
+
+----------------------------------------------------------------------The End---------------------------------------------------------------
